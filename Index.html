@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet"  href="WeatherForecast.css">
+</head>
+<body>
+    <!-- /rain,clear,clouds,snow,drizzle -->
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter a city name" spellcheck="false">
+            <button>Search</button>
+        </div>
+        <div class="errorcityname">
+            <p>Invalid City name</p>
+        </div>
+        <div class="weather">
+            <img src="clear.png" alt="Rain" class="weather-icon">
+            <h3 class="weathername">Clear</h3>
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <p class="humidity">50%</p>
+                    <h5>Humidity</h5>
+                </div>
+                <div class="col">
+                    <p class="wind">15 km/h</p>
+                    <h5>Wind Speed</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="WeatherForecast.js"></script>
+    
+</body>
+</html>
