@@ -108,6 +108,9 @@ body{
     .search button{
         padding: 10px;
     }
+    .card{
+    width: 100%;
+    }
 }
 
 @media only screen and (min-width: 600px){
